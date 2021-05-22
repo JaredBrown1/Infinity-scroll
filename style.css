@@ -8,7 +8,13 @@ body {
 	margin: 0;
 	/* text-align: center; */
 	font-family: Bebas Neue, sans-serif;
-	background: whitesmoke;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(121, 28, 9, 1) 35%,
+		rgba(0, 212, 255, 1) 100%
+	);
 }
 
 h1 {
@@ -17,6 +23,7 @@ h1 {
 	margin-bottom: 15px;
 	font-size: 40px;
 	letter-spacing: 5px;
+	color: whitesmoke;
 }
 
 /* Loader */
@@ -45,8 +52,8 @@ h1 {
 
 .image-container img {
 	width: 100%;
-	height: 500px;
 	margin-top: 5px;
+	border-radius: 10px;
 }
 
 /* Media Query: Large Smartphone */
